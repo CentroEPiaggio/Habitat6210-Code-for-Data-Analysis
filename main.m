@@ -4,8 +4,8 @@ clear all; clc;
 addpath('./functions/');
 
 % Input parameters (Change this to change bag file)
-bag_path = './bags/dataset_6210/';
-bag_file = '_2022-05-11-17-48-56.bag';
+bag_path = './bags/';
+bag_file = 'example.bag';
 
 % Load constants
 constants_initialization;
