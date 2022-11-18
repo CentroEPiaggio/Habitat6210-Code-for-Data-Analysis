@@ -8,15 +8,13 @@ This repository contains example MATLAB code for extracting and analysing the RO
 MATLAB 2022a or later and ROS Toolbox are required to run the code contained in this repository.
 
 #### Structure of the Repository
+```bash
 Habitat6210_Dataset_code
 .
 |-- README.md
 |-- bags
-|   |-- dataset_6210
-|   |   `-- _2022-05-11-17-48-56.bag
 |   `-- example.bag
 |-- constants_initialization.m
-|-- example_plots.asv
 |-- example_plots.m
 |-- functions
 |   |-- compute_battery_status.m
@@ -30,6 +28,7 @@ Habitat6210_Dataset_code
 |   |-- trim_in_time.m
 |   `-- trim_tf_in_time.m
 `-- main.m
+```
 
 #### How to Run
 To extract data from a ROS bag file, perform the following:
